@@ -43,6 +43,7 @@ extension Theater {
                     }
                     DispatchQueue.main.async {
                         let looper = LoopingPlayer(url: url)
+                        looper.volume = 0
                         looper.loopPlayback = true
                         self.player = looper
                         self.player?.rate = 1.5
