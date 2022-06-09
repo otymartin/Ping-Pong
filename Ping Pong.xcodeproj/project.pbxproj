@@ -7,18 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A143470E28513B95003280D8 /* Ping_PongApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A143470D28513B95003280D8 /* Ping_PongApp.swift */; };
+		A143470E28513B95003280D8 /* PingPong.swift in Sources */ = {isa = PBXBuildFile; fileRef = A143470D28513B95003280D8 /* PingPong.swift */; };
 		A143471028513B95003280D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A143470F28513B95003280D8 /* ContentView.swift */; };
 		A143471228513B97003280D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A143471128513B97003280D8 /* Assets.xcassets */; };
 		A143471528513B97003280D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A143471428513B97003280D8 /* Preview Assets.xcassets */; };
+		A143471C28513C56003280D8 /* Theater.swift in Sources */ = {isa = PBXBuildFile; fileRef = A143471B28513C56003280D8 /* Theater.swift */; };
+		A143471E28513D6C003280D8 /* penalty.mov in Resources */ = {isa = PBXBuildFile; fileRef = A143471D28513D6C003280D8 /* penalty.mov */; };
+		A143472128514CC3003280D8 /* Files in Frameworks */ = {isa = PBXBuildFile; productRef = A143472028514CC3003280D8 /* Files */; };
+		A1434725285157B4003280D8 /* KVExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1434723285157B4003280D8 /* KVExtensions.swift */; };
+		A1434726285157B4003280D8 /* VideoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1434724285157B4003280D8 /* VideoManager.swift */; };
+		A143472A28515ACD003280D8 /* LoopingPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A143472728515ACD003280D8 /* LoopingPlayer.swift */; };
+		A143472B28515ACD003280D8 /* AVFoundation++.swift in Sources */ = {isa = PBXBuildFile; fileRef = A143472828515ACD003280D8 /* AVFoundation++.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A143470A28513B95003280D8 /* Ping Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ping Pong.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A143470D28513B95003280D8 /* Ping_PongApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ping_PongApp.swift; sourceTree = "<group>"; };
+		A143470D28513B95003280D8 /* PingPong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingPong.swift; sourceTree = "<group>"; };
 		A143470F28513B95003280D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A143471128513B97003280D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A143471428513B97003280D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A143471B28513C56003280D8 /* Theater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theater.swift; sourceTree = "<group>"; };
+		A143471D28513D6C003280D8 /* penalty.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = penalty.mov; sourceTree = "<group>"; };
+		A1434723285157B4003280D8 /* KVExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVExtensions.swift; sourceTree = "<group>"; };
+		A1434724285157B4003280D8 /* VideoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoManager.swift; sourceTree = "<group>"; };
+		A143472728515ACD003280D8 /* LoopingPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoopingPlayer.swift; sourceTree = "<group>"; };
+		A143472828515ACD003280D8 /* AVFoundation++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVFoundation++.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A143472128514CC3003280D8 /* Files in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +65,13 @@
 		A143470C28513B95003280D8 /* Ping Pong */ = {
 			isa = PBXGroup;
 			children = (
-				A143470D28513B95003280D8 /* Ping_PongApp.swift */,
+				A143470D28513B95003280D8 /* PingPong.swift */,
+				A143471B28513C56003280D8 /* Theater.swift */,
 				A143470F28513B95003280D8 /* ContentView.swift */,
+				A143472828515ACD003280D8 /* AVFoundation++.swift */,
+				A143472728515ACD003280D8 /* LoopingPlayer.swift */,
+				A1434722285157B4003280D8 /* VideoManager */,
+				A143471D28513D6C003280D8 /* penalty.mov */,
 				A143471128513B97003280D8 /* Assets.xcassets */,
 				A143471328513B97003280D8 /* Preview Content */,
 			);
@@ -65,6 +84,15 @@
 				A143471428513B97003280D8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1434722285157B4003280D8 /* VideoManager */ = {
+			isa = PBXGroup;
+			children = (
+				A1434723285157B4003280D8 /* KVExtensions.swift */,
+				A1434724285157B4003280D8 /* VideoManager.swift */,
+			);
+			path = VideoManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +111,9 @@
 			dependencies = (
 			);
 			name = "Ping Pong";
+			packageProductDependencies = (
+				A143472028514CC3003280D8 /* Files */,
+			);
 			productName = "Ping Pong";
 			productReference = A143470A28513B95003280D8 /* Ping Pong.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +142,9 @@
 				Base,
 			);
 			mainGroup = A143470128513B95003280D8;
+			packageReferences = (
+				A143471F28514CC3003280D8 /* XCRemoteSwiftPackageReference "Files" */,
+			);
 			productRefGroup = A143470B28513B95003280D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A143471528513B97003280D8 /* Preview Assets.xcassets in Resources */,
+				A143471E28513D6C003280D8 /* penalty.mov in Resources */,
 				A143471228513B97003280D8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +172,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1434726285157B4003280D8 /* VideoManager.swift in Sources */,
+				A143472B28515ACD003280D8 /* AVFoundation++.swift in Sources */,
 				A143471028513B95003280D8 /* ContentView.swift in Sources */,
-				A143470E28513B95003280D8 /* Ping_PongApp.swift in Sources */,
+				A143470E28513B95003280D8 /* PingPong.swift in Sources */,
+				A1434725285157B4003280D8 /* KVExtensions.swift in Sources */,
+				A143471C28513C56003280D8 /* Theater.swift in Sources */,
+				A143472A28515ACD003280D8 /* LoopingPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +379,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A143471F28514CC3003280D8 /* XCRemoteSwiftPackageReference "Files" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JohnSundell/Files.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A143472028514CC3003280D8 /* Files */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A143471F28514CC3003280D8 /* XCRemoteSwiftPackageReference "Files" */;
+			productName = Files;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A143470228513B95003280D8 /* Project object */;
 }
